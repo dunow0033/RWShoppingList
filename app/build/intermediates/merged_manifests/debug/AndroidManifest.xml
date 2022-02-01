@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.ShoppingList" >
+        <activity android:name="com.android.shoppinglist.ShowItemsListActivity" />
         <activity android:name="com.android.shoppinglist.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

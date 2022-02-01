@@ -29,7 +29,7 @@ public class ShowItemListActivityViewModel extends AndroidViewModel {
     }
 
     public void getAllItemsList(int categoryID) {
-        List<Items> itemsList=  appDatabase.shoppingListDao().getAllItemsList(categoryID);
+        List<Items> itemsList = appDatabase.shoppingListDao().getAllItemsList(categoryID);
         if(itemsList.size() > 0)
         {
             listOfItems.postValue(itemsList);
@@ -39,7 +39,6 @@ public class ShowItemListActivityViewModel extends AndroidViewModel {
     }
 
     public void insertItems(Items item) {
-
         appDatabase.shoppingListDao().insertItems(item);
         getAllItemsList(item.categoryId);
     }

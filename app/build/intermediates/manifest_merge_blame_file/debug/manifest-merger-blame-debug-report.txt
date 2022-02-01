@@ -29,44 +29,47 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.ShoppingList" >
 21-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:11:9-50
-22        <activity android:name="com.android.shoppinglist.SplashActivity" >
-22-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:13:9-20:20
-22-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:13:19-49
-23            <intent-filter>
-23-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:15:17-69
-24-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:17:17-77
-26-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28            >
-29        </activity>
-30        <activity android:name="com.android.shoppinglist.MainActivity" />
-30-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:21:9-59
-30-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:21:19-47
-31
-32        <service
-32-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:25:9-28:40
-33            android:name="androidx.room.MultiInstanceInvalidationService"
-33-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:26:13-74
-34            android:directBootAware="true"
-34-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:27:13-43
-35            android:exported="false" />
-35-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:28:13-37
-36
-37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-39            android:authorities="com.android.shoppinglist.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-41            android:multiprocess="true" />
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-42    </application>
-43
-44</manifest>
+22        <activity android:name="com.android.shoppinglist.ShowItemsListActivity" />
+22-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:12:9-68
+22-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:12:19-56
+23        <activity android:name="com.android.shoppinglist.SplashActivity" >
+23-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:13:9-20:20
+23-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:13:19-49
+24            <intent-filter>
+24-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:15:17-69
+25-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:17:17-77
+27-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29            >
+30        </activity>
+31        <activity android:name="com.android.shoppinglist.MainActivity" />
+31-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:21:9-59
+31-->C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:21:19-47
+32
+33        <service
+33-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:25:9-28:40
+34            android:name="androidx.room.MultiInstanceInvalidationService"
+34-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:26:13-74
+35            android:directBootAware="true"
+35-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:27:13-43
+36            android:exported="false" />
+36-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:28:13-37
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+40            android:authorities="com.android.shoppinglist.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bedon\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+43    </application>
+44
+45</manifest>

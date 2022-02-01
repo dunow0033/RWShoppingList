@@ -86,6 +86,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\be
 		ADDED from C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:11:9-50
+activity#com.android.shoppinglist.ShowItemsListActivity
+ADDED from C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:12:9-68
+	android:name
+		ADDED from C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:12:19-56
 activity#com.android.shoppinglist.SplashActivity
 ADDED from C:\Users\bedon\AndroidStudioProjects\RWShoppingList\app\src\main\AndroidManifest.xml:13:9-20:20
 	android:name
