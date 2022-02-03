@@ -22,12 +22,12 @@ public class MainActivityViewModel extends AndroidViewModel {
         appDatabase = AppDatabase.getDBinstance(getApplication().getApplicationContext());
     }
 
-    public MutableLiveData<List<Category>>  getCategoryListObserver() {
+    public MutableLiveData<List<Category>> getCategoryListObserver() {
         return listOfCategory;
     }
 
     public void getAllCategoryList() {
-        List<Category> categoryList=  appDatabase.shoppingListDao().getAllCategoriesList();
+        List<Category> categoryList = appDatabase.shoppingListDao().getAllCategoriesList();
         if(categoryList.size() > 0)
         {
             listOfCategory.postValue(categoryList);

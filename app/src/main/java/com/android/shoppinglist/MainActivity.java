@@ -24,7 +24,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements CategoryListAdapter.HandleCategoryClick {
 
     private MainActivityViewModel viewModel;
-    private TextView noResulttextView;
+    private TextView noResultTextView;
     private RecyclerView recyclerView;
     private CategoryListAdapter categoryListAdapter;
     private Category categoryForEdit;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements CategoryListAdapt
         setContentView(R.layout.activity_main);
 
         getSupportActionBar().setTitle("Shopping List");
-        noResulttextView  = findViewById(R.id.noResult);
+        noResultTextView  = findViewById(R.id.noResult);
         recyclerView  = findViewById(R.id.recyclerView);
         ImageView addNew = findViewById(R.id.addNewCategoryImageView);
         addNew.setOnClickListener(new View.OnClickListener() {
@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity implements CategoryListAdapt
             @Override
             public void onChanged(List<Category> categories) {
                 if(categories == null) {
-                    noResulttextView.setVisibility(View.VISIBLE);
+                    noResultTextView.setVisibility(View.VISIBLE);
                     recyclerView.setVisibility(View.GONE);
                 } else {
                     //show in the recyclerview
                     categoryListAdapter.setCategoryList(categories);
                     recyclerView.setVisibility(View.VISIBLE);
-                    noResulttextView.setVisibility(View.GONE);
+                    noResultTextView.setVisibility(View.GONE);
                 }
             }
         });

@@ -81,7 +81,6 @@ public class CategoryListAdapter extends RecyclerView.Adapter<CategoryListAdapte
             tvCategoryName = view.findViewById(R.id.tvCategoryName);
             removeCategory = view.findViewById(R.id.removeCategory);
             editCategory = view.findViewById(R.id.editCategory);
-
         }
     }
 

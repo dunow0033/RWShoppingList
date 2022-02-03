@@ -36,6 +36,4 @@ public interface ShoppingListDao {
 
     @Delete
     void deleteItem(Items items);
-
-
 }

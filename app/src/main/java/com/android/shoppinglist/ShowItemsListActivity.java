@@ -46,7 +46,7 @@ public class ShowItemsListActivity extends AppCompatActivity implements ItemsLis
             public void onClick(View v) {
                 String itemName = addNewItemInput.getText().toString();
                 if(TextUtils.isEmpty(itemName)) {
-                    Toast.makeText(ShowItemsListActivity.this, "Enter Item Nane", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ShowItemsListActivity.this, "Enter Item Name", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if(itemToUpdate == null)
